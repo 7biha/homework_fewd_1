@@ -15,6 +15,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color:yellow;
+    border-bottom-width: 3px;
 }
 .container{
     /* width: 98%; */
@@ -25,8 +28,22 @@ body{
 .top_left h3 a{ 
     text-decoration: none;
     color: yellow;
+    margin-left: 10px;
     
 }
+
+#banner section.container{
+    /* width: 60%; */
+    /* margin: 0 auto; */
+    padding: 5px ;
+    background-color: rgb(187, 184, 184);
+}
+#banner section h3{
+    text-align: center;
+    font-style: italic;
+}
+
+
 /* .top_left .nav{
     text-decoration: none;
     color: yellow;
