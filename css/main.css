@@ -31,6 +31,12 @@ body{
     margin-left: 10px;
     
 }
+.banner{
+    background-image: url("http://placehold.it/1200x400");
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+}
 
 #banner section.container{
     /* width: 60%; */
@@ -43,6 +49,64 @@ body{
     font-style: italic;
 }
 
+.text-block {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    background: rgba(255, 255, 255, 0.493);
+    padding-left: 20px;
+    padding-right: 20px;
+    width:20%;
+    height: 35%;
+    
+    /* opacity: 0.6; */
+  }
+
+.text-block button{
+    border-style: none;
+    background-color: yellow;
+    padding: 10px 70px;
+    border-radius: 3px;
+    bottom: 50px;
+    justify-content: space-between;
+}
+.flex{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+.walk_through .item{
+    text-align: left;
+    margin-right:20px;
+    box-shadow: rgb(209 209 213) 0px 5px 15px;
+    padding: 20px;
+}
+
+.item h4{
+     text-decoration-style: solid;
+ }
+.item button{
+    border-style: none;
+    background-color: rgb(151, 149, 149);
+    padding: 20px;
+    border-radius: 3px;
+    width:100%;
+    height: 30%;
+    text-align: center;
+    
+    
+}
+.walk_through .item:last-child{
+    margin-right:0;
+}
+/* .text-block p{
+      color: black;
+}
+
+.text-block h3 {
+    color: black;
+} */
 
 /* .top_left .nav{
     text-decoration: none;
